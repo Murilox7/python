@@ -7,7 +7,7 @@ palpites = 0
 while not acertou:
     jogador = int(input('Qual é seu palpite? '))
     palpites += 1
-    if jogador >= 10:
+    if jogador > 10:
         print('Escreva somente de 1 a 10! ')
     if jogador == computador:
         acertou = True
@@ -17,4 +17,5 @@ while not acertou:
         elif jogador > computador:
             print('Menos... tente mais uma vez')
 print('Acertou com {} palpites'.format(palpites))
+
       
