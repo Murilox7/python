@@ -6,4 +6,5 @@ while num != 999:
     soma = soma + num
     cont = cont + 1
     num = int(input('Digite um numero [999 para parar]: '))
-print('Voce digitou {} numeros e a soma entre eles foi {}.'.format(cont, soma))
+
+print(f'Voce digitou {cont} numeros e a soma entre eles foi {soma}.')
